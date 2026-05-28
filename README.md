@@ -8,10 +8,17 @@ Developed and maintained by **[Amit Mahata](https://github.com/amitmahata)**.
 
 ## 📸 Screenshots
 
-### Taskbar Widget — Close-up View
+### Taskbar Widget
 The speed monitor pill sits natively on the taskbar, just like built-in Windows icons (volume, battery, clock):
 
-![Taskbar Widget Close-up](screenshots/taskbar_widget_close.png)
+![Taskbar Widget](screenshots/taskbar_widget_close.png)
+
+### Speed Dashboard
+Right-click the widget and select **Show Details** to open the glassmorphic details popup with real-time speed graph, session stats, and adapter info:
+
+![Speed Dashboard](screenshots/details_popup.png)
+
+---
 
 ## ✨ Features
 
@@ -22,7 +29,7 @@ Unlike traditional widgets that float clumsily over windows or hide inside the s
 - **Autohide & Fullscreen Support**:
   - Automatically slides down/up in unison with the taskbar when "Auto-hide taskbar" is enabled in Windows settings.
   - Automatically hides during fullscreen YouTube/Netflix videos or fullscreen games (natively inherits the taskbar's hiding state).
-- **Glassmorphic Interactive Dashboard**: Double-clicking the widget slides up a gorgeous, premium, glassmorphic speed dashboard featuring:
+- **Glassmorphic Interactive Dashboard**: Right-clicking the widget and selecting **Show Details** slides up a gorgeous, premium, glassmorphic speed dashboard featuring:
   - Real-time rolling 60-second speed history line graph (rendered via high-contrast polyline on canvas).
   - Session statistics for total downloaded and uploaded traffic.
   - Active adapter information and elapsed session duration.
