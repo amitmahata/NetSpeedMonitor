@@ -6,7 +6,14 @@ Developed and maintained by **[Amit Mahata](https://github.com/amitmahata)**.
 
 ---
 
-## 📸 Overview & Features
+## 📸 Screenshots
+
+### Taskbar Widget — Close-up View
+The speed monitor pill sits natively on the taskbar, just like built-in Windows icons (volume, battery, clock):
+
+![Taskbar Widget Close-up](screenshots/taskbar_widget_close.png)
+
+## ✨ Features
 
 Unlike traditional widgets that float clumsily over windows or hide inside the system tray, **Net Speed Monitor** integrates natively into the Windows shell layout:
 
@@ -37,7 +44,7 @@ Unlike traditional widgets that float clumsily over windows or hide inside the s
    * **Description**: `A lightweight real-time network speed monitor natively embedded in the Windows taskbar.`
 
 2. **Self-Contained Embedded Icons**: 
-   Using standard WPF Pack Resource URIs (`pack://application:,,,/app_logo.png`), all visual logo elements are compiled directly inside the executable. The `.exe` is 100% portable and can be moved anywhere on disk (e.g. to the Desktop) without requiring any loose image files.
+   Using standard WPF Pack Resource URIs (`pack://application:,,,/app_logo.png`), all visual logo elements are compiled directly inside the executable. The `.exe` is 100% portable and can be moved anywhere on disk without requiring any loose image files.
 
 3. **Branded Installer Graphics**: 
    The Inno Setup script (`setup.iss`) is fully branded with custom high-contrast, modern installer graphics:
@@ -90,6 +97,20 @@ We use **Inno Setup** to compile a professional, clean Windows installation wiza
 3. Open `setup.iss` inside Inno Setup.
 4. Press **`F9`** (or click **Build -> Compile**).
 5. The branded setup wizard `NetSpeedMonitorSetup.exe` will be generated inside the `Output` folder!
+
+---
+
+## ⚙ Run on Windows Startup
+
+To have the speed monitor start automatically every time you boot Windows:
+
+1. Press `Win + R` to open the **Run** dialog.
+2. Type `shell:startup` and press **Enter**. This opens your Windows Startup folder.
+3. Right-click inside the folder, select **New** → **Shortcut**.
+4. Browse to the path of your compiled `NetSpeedMonitor.exe` and select it.
+5. Click **Next** and **Finish**.
+
+Now, the Net Speed Monitor will seamlessly launch and embed itself into your taskbar at Windows startup!
 
 ---
 
