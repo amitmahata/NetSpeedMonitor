@@ -1,0 +1,41 @@
+## --- .gitignore for Net Speed Monitor ---
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Oo]utput/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Rider / IntelliJ JetBrains files
+.idea/
+*.sln.iml
+
+# OS auto-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userprefs
+
+# Direct Publish Artifacts
+publish/
+
+# Inno Setup output folder
+/Output/
+
+# Temp/Log files
+*.log
+*.tmp

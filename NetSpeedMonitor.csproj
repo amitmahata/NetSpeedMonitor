@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>false</UseWindowsForms>
+    <ApplicationIcon>app_logo.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <RootNamespace>NetSpeedMonitor</RootNamespace>
+    <AssemblyName>NetSpeedMonitor</AssemblyName>
+    <Authors>Amit Mahata</Authors>
+    <Company>Amit Mahata</Company>
+    <Product>Net Speed Monitor</Product>
+    <Copyright>Copyright © 2026 Amit Mahata</Copyright>
+    <Description>A lightweight real-time network speed monitor natively embedded in the Windows taskbar.</Description>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="app_logo.png" />
+  </ItemGroup>
+
+</Project>

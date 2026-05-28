@@ -1,0 +1,9 @@
+<Application x:Class="NetSpeedMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+    <Application.Resources>
+        <!-- Global font family -->
+        <FontFamily x:Key="AppFont">Segoe UI</FontFamily>
+    </Application.Resources>
+</Application>
